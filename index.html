@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Sri Kalyanam Services</title>
+<link href='http://fonts.googleapis.com/css?family=Niconne' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/styles.css" />
+
+<!-- bjqs.css contains the *essential* css needed for the slider to work -->
+<link rel="stylesheet" href="css/bjqs.css">
+
+<!-- load jQuery and the plugin -->
+<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+<script src="js/bjqs-1.3.min.js"></script>
+<script class="secret-source">
+    jQuery(document).ready(function($) {
+      $('#banner-fade').bjqs({
+        height      : 340,
+        width       : 940,
+        responsive  : true
+      });
+    });
+</script>
+
+<script type="text/javascript">
+	<!--
+	 function nameDefined(ckie,nme)
+	{
+	   var splitValues
+	   var i
+	   for (i=0;i<ckie.length;++i)
+	   {
+		  splitValues=ckie[i].split("=")
+		  if (splitValues[0]==nme) return true
+	   }
+	   return false
+	}
+	
+	function delBlanks(strng)
+	{
+	   var result=""
+	   var i
+	   var chrn
+	   for (i=0;i<strng.length;++i) {
+		  chrn=strng.charAt(i)
+		  if (chrn!=" ") result += chrn
+	   }
+	   return result
+	}
+	function getCookieValue(ckie,nme)
+	{
+	   var splitValues
+	   var i
+	   for(i=0;i<ckie.length;++i) {
+		  splitValues=ckie[i].split("=")
+		  if(splitValues[0]==nme) return splitValues[1]
+	   }
+	   return ""
+	}
+	function insertCounter() {
+	 readCookie()
+	 displayCounter()
+	}
+	 function displayCounter() {
+	 document.write('<div>')
+	 document.write("No. of Visits: ")
+	 if(counter==1) document.write("the first time.")
+	 else document.write("<strong>" + counter + "</strong> times.")
+	 document.writeln('</div>')
+	 }
+	function readCookie() {
+	 var cookie=document.cookie
+	 counter=0
+	 var chkdCookie=delBlanks(cookie)  //are on the client computer
+	 var nvpair=chkdCookie.split(";")
+	 if(nameDefined(nvpair,"pageCount"))
+	 counter=parseInt(getCookieValue(nvpair,"pageCount"))
+	 ++counter
+	 var futdate = new Date()
+	 var expdate = futdate.getTime()
+	 expdate += 3600000 * 24 *30  //expires in 1 hour
+	 futdate.setTime(expdate)
+	
+	 var newCookie="pageCount="+counter
+	 newCookie += "; expires=" + futdate.toGMTString()
+	 window.document.cookie=newCookie
+	}
+	// -->
+</script>
+</head>
+
+<body>
+<div class="wrapper">
+
+    <header>
+        <div class="header-wrapper">
+        	<div class="logo-tree"></div>
+        	<div class="logo"></div>
+            <div class="clear"></div>
+            <div class="navigation">            
+        	<nav>      
+            <ul>
+              <li><a href="index.html" class="active">Home</a></li><li><a href="about-us.html">About Us</a></li><li><a href="services.html">Services</a></li><li><a href="gallery.html">Gallery</a></li><li><a href="contact-us.html">Contact Us</a></li></ul>      
+            </nav>
+        	</div>
+        </div>
+    </header>
+
+    <div class="container">
+	<div class="top">
+    	<span>Phone: 9100 022 351 / 52 / 53 / 54 / 55</span>
+        E-mail: srikalyanamservices@gmail.com </div>
+      <!--banner starts here-->
+      <div class="banner">       
+          <div id="banner-fade">
+            <!-- start Basic Jquery Slider -->
+            <ul class="bjqs">
+              <li><img src="images/banner1.jpg" title="Wedding Planners"></li>
+              <li><img src="images/banner2.jpg" title="Marriage Mandapams"></li>
+              <li><img src="images/banner3.jpg" title="Music (DJ / Sangeeth / Orchestra)"></li>
+              <li><img src="images/banner4.jpg" title="Special Occasions"></li>
+              <li><img src="images/banner5.jpg" title="Conferences / Seminar"></li>
+            </ul>
+            <!-- end Basic jQuery Slider -->
+          </div>  
+          <div class="clear"></div>     
+      </div>
+      <!--banner ends here-->
+  	  
+      <h1>Welcome</h1>
+      <h2>Our only limit is your imagination</h2>
+      <p style="text-align:center">Off late the concept of professional event management has taken huge strides in India, helping both Individuals and organizations to avoid those eleventh hour mishaps which creep in due to improper planning and inexperience in executing events. Though event management has been inherently a part of our ancient culture, it’s in this millennium that we are successful in carving it to a profession.</p>
+<p style="text-align:center">Sri Kalyanam Services... the name itself resembles services that are with a great intention. </p>
+      <p></p>
+      
+      <h2 style="margin:30px 0">- Services -</h2>
+      <ul class="services">
+      	<li><a href="services.html" class="blue">Wedding Planners</a></li>
+        <li><a href="services.html" class="green">Cattering</a></li>
+        <li><a href="services.html" class="red">Floral Decoration</a></li>
+        <li><a href="services.html" class="yellow">Marriage Mandapams</a></li>
+        <li><a href="services.html" class="light-blue">Stage Decorations</a></li>
+        <li><a href="services.html" class="light-yellow">Lightings</a></li>
+        <li><a href="services.html" class="blue">Professional Photography</a></li>
+        <li><a href="services.html" class="green">Birthdays</a></li>
+        <li><a href="services.html" class="red">Family Events</a></li>
+        <li><a href="services.html" class="yellow">Corporate Events</a></li>
+        <li><a href="services.html" class="light-blue">Special Occasions</a></li>
+        <li><a href="services.html" class="light-yellow">Music</a></li>
+        <li><a href="services.html" class="blue">Celebrities</a></li>
+        <li><a href="services.html" class="green">Beauty Services</a></li>
+        <li><a href="services.html" class="red">Luxury Vehicle</a></li>
+        <li><a href="services.html" class="yellow">Conferences / Seminars</a></li>
+        <li><a href="services.html" class="light-blue">Hosts</a></li>
+        <li><a href="services.html" class="light-yellow">Security</a></li>
+        <li><a href="services.html" class="red">Openings</a></li>
+        <li><a href="services.html" class="light-blue">Road Shows</a></li>
+        <li><a href="services.html" class="green">Honey Moon Packages</a></li>
+        <li><a href="services.html" class="green">Cradle Ceremony</a></li>
+      </ul>
+      <div class="clear"></div>
+    </div>
+</div>
+
+<footer>
+  <h3>Follow Us</h3>
+  <ul class="social-icon">
+    <li><a href="#" class="twitter"></a></li>
+    <li><a href="#" class="facebook"></a></li>
+    <li><a href="#" class="googleplus"></a></li>
+  </ul>
+  <div class="clear"></div>
+  <a href="index.html">Home</a> | <a href="about-us.html">About Us</a> | <a href="services.html">Services</a> | <a href="gallery.html">Gallery</a> | <a href="contact-us.html">Contact Us</a> | <a href="privacy-policy.html">Privacy Policy</a>
+  <p class="copyright">&copy; 2015 www.srikalyanam.co.in</p>
+  
+<!-- Script Visitor Counter -->
+<script type="text/javascript">
+<!--
+insertCounter()
+// -->
+</script>
+</footer>
+</body>
+</html>
